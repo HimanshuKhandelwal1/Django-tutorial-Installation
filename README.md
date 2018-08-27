@@ -62,10 +62,10 @@ Pip command for virtual environment creation is(PIP is a tool for manage and ins
 ### pip install virtualenv
 
 now create a folder for the your django files and folders.
-### mkdir <foldername>
+### mkdir foldername
   
 now create the virtual environment for your first django project.
-### virtualenv <environment name>
+### virtualenv environment name
 
 Now activate the virtual environment for the django installation.
 ### <environment name>/Scripts/activate (in command prompt.)
@@ -76,7 +76,7 @@ you can check that the virtual environment is activate by seeing the command pro
 Now install the Django in this environment and it will be available for this environment only.
 ### pip install django
 
-###Starting a New Project in Django
+### Starting a New Project in Django
 
 To start a new Django project, we have to run a command:
 ### django-admin startproject myproject
