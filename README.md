@@ -43,7 +43,7 @@ It is good to know that Django is used by biggest Web sites such as
  - National Geographic.
 
 ### Initial Installation required for Django
- For to ply with django, you have to install some programs in you machine.
+To play with django, you need some software to install in your machine.
  1. Python 2 / 3 (it depends on you but i preferred python3 because it is update one and most of the functionality of Django work in python3)
 
  2. Virtual Environment for the Django project.
