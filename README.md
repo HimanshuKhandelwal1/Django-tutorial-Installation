@@ -59,27 +59,27 @@ Python allow you to create a isolated working copy of the python which allow you
 Virtual Environment is necessary for the Django project so that to avoid any type of conflict between multiple django projects.
 
 Pip command for virtual environment creation is(PIP is a tool for manage and install python packages. 
-### pip install virtualenv
+##### pip install virtualenv
 
 now create a folder for the your django files and folders.
-### mkdir foldername
+##### mkdir folder_name
   
 now create the virtual environment for your first django project.
-### virtualenv environment name
+##### virtualenv environment_name
 
 Now activate the virtual environment for the django installation.
-### <environment name>/Scripts/activate (in command prompt.)
+##### <environment name>/Scripts/activate (in command prompt.)
   
 you can check that the virtual environment is activate by seeing the command prompr that you environment name is like this 
-###(environment name) c:/user/projects/(ur folder name)
+##### (environment name) c:/user/projects/(ur folder name)
 
 Now install the Django in this environment and it will be available for this environment only.
-### pip install django
+##### pip install django
 
-### Starting a New Project in Django
+##### Starting a New Project in Django
 
 To start a new Django project, we have to run a command:
-### django-admin startproject myproject
+##### django-admin startproject myproject
 
 The command-line utility django-admin is automatically installed with Django. After we run the command above, it will generate the base folder structure for a Django project. The initial project structure is composed of five files:
 #### manage.py: 
@@ -96,7 +96,8 @@ this file is a simple gateway interface used for deployment. You don’t have to
 ### Run web server for confirmation
 Django comes with a simple web server installed. It’s very convenient during the development, so we don’t have to install anything else to run the project locally. We can test it by executing the command:
 
-### python manage.py runserver 
+##### python manage.py runserver 
+
 Here error will come as :
 ##### python: can't open file 'manage.py': [Errno 2] No such file or directory
 solution for this error is:, 
@@ -104,7 +105,7 @@ you have to navigate in the folder where manage.py file is and than run the abov
 mostly it will be inside your django project folder. from there you can run the manage.py file.
 
 Ignore all the warning and check in your browser by the following URL in a Web browser: 
-### http://127.0.0.1:8000 
+##### http://127.0.0.1:8000 
 
 and you should see the following page:
 
