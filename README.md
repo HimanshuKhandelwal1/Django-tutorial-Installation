@@ -18,15 +18,33 @@ Django enables you to develop secure and reliable Web applications very quickly 
 any Idea no,.... than no problem,
 For starters, it’s a Python Web framework, and as you know, python is having a wide of range of open source libraries. It hosts over 116K packages (till Sep. 2017). If you need to solve a specific problem, the chances are someone has already implemented a library for it.
 
-Django is one of the most popular Web frameworks written in Python. It is complete and offering a wide range of features such as a standalone Web server for development and testing, caching, middleware system, ORM, template engine, form processing, interface with Python’s unit testing tools. It also comes with the built-in applications such as an authentication system, an administrative interface with automatically generated pages for CRUD operations, generation of syndication feeds (RSS/Atom), sitemaps. There’s even a Geographic Information System (GIS) framework.
+Django is one of the most popular Web frameworks written in Python. It is complete and offering a wide range of features such as 
+ - a standalone Web server for development and testing, 
+ - caching, 
+ - middleware system, 
+ - ORM, 
+ - template engine, 
+ - form processing, 
+ - interface with Python’s unit testing tools. 
+It also comes with the built-in applications such as 
+ - authentication system, 
+ - an administrative interface with automatically generated pages for CRUD operations, 
+ - generation of syndication feeds (RSS/Atom), sitemaps. 
+ - Geographic Information System (GIS) framework.
 The development of Django is sponsored by companies like JetBrains and Instagram.
-It is good to know that Django is used by biggest Web sites such as Instagram, Disqus, Mozilla, Bitbucket, Last.fm, National Geographic.
+It is good to know that Django is used by biggest Web sites such as 
+ - Instagram, 
+ - Disqus, 
+ - Mozilla, 
+ - Bitbucket, 
+ - Last.fm, 
+ - National Geographic.
 
 ### Initial Installation required for Django
 For to ply with django, you have to install some programs in you machine.
-1.) Python 2 / 3 (it depends on you but i preferred python3 because it is update one and most of the functionality of Django work in python3)
+ 1. Python 2 / 3 (it depends on you but i preferred python3 because it is update one and most of the functionality of Django work in python3)
 
-2.) Virtual Environment for the Django project.
+ 2. Virtual Environment for the Django project.
 
 ####Python Installation
 You can download the python from the python official site https://www.python.org/downloads/ here and keep on clicking next.
