@@ -76,24 +76,28 @@ you can check that the virtual environment is activate by seeing the command pro
 Now install the Django in this environment and it will be available for this environment only.
 ##### pip install django
 
-##### Starting a New Project in Django
+## Starting a New Project in Django
 
 To start a new Django project, we have to run a command:
 ##### django-admin startproject myproject
 
 The command-line utility django-admin is automatically installed with Django. After we run the command above, it will generate the base folder structure for a Django project. The initial project structure is composed of five files:
-#### manage.py: 
+ - #### manage.py: 
 a shortcut to use the django-admin command-line utility. It’s used to run management commands related to our project. We will use it to run the development server, run tests, create migrations and much more.
-#### __init__.py: 
+ 
+ - #### __init__.py: 
 this empty file tells Python that this folder is a Python package.
-#### settings.py: 
+
+ - #### settings.py: 
 this file contains all the project’s configuration. We will refer to this file all the time!
-#### urls.py: 
+
+ - #### urls.py: 
 this file is responsible for mapping the routes and paths in our project. For example, if you want to show something in the URL /about/, you have to map it here first.
-#### wsgi.py: 
+
+ - #### wsgi.py: 
 this file is a simple gateway interface used for deployment. You don’t have to bother about it. Just let it be for now.
 
-### Run web server for confirmation
+## Run web server for confirmation
 Django comes with a simple web server installed. It’s very convenient during the development, so we don’t have to install anything else to run the project locally. We can test it by executing the command:
 
 ##### python manage.py runserver 
