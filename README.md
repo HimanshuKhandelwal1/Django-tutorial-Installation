@@ -26,11 +26,13 @@ Django is one of the most popular Web frameworks written in Python. It is comple
  - template engine, 
  - form processing, 
  - interface with Python’s unit testing tools. 
+ 
 It also comes with the built-in applications such as 
  - authentication system, 
  - an administrative interface with automatically generated pages for CRUD operations, 
  - generation of syndication feeds (RSS/Atom), sitemaps. 
  - Geographic Information System (GIS) framework.
+
 The development of Django is sponsored by companies like JetBrains and Instagram.
 It is good to know that Django is used by biggest Web sites such as 
  - Instagram, 
@@ -41,12 +43,12 @@ It is good to know that Django is used by biggest Web sites such as
  - National Geographic.
 
 ### Initial Installation required for Django
-For to ply with django, you have to install some programs in you machine.
+ For to ply with django, you have to install some programs in you machine.
  1. Python 2 / 3 (it depends on you but i preferred python3 because it is update one and most of the functionality of Django work in python3)
 
  2. Virtual Environment for the Django project.
 
-####Python Installation
+#### Python Installation
 You can download the python from the python official site https://www.python.org/downloads/ here and keep on clicking next.
 For, running the python from command prompt, you have to set the path for the python3 in environment variable for your system in windows.
 now you can run the python by command prompt and navigate to the folder of your Python project or where you want to create the Django project.
