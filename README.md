@@ -2,11 +2,20 @@
 If you are new for django than lets have some information guide. Guide means not the solution but what is django? So lets start....
 
 ## Django
-Django is a Web framework written in Python. It is a software that supports the development of dynamic Web sites, applications, and services. It is used in all such cases as security features, database access, sessions, template processing, URL routing, internationalization, localization, and much more.
+Django is a Web framework written in Python. It is a software that supports 
+ - the development of dynamic Web sites, applications, and services. 
+ - security features, 
+ - database access, 
+ - sessions, 
+ - template processing, 
+ - URL routing, 
+ - internationalization, 
+ - localization, and much more.
+
 Django enables you to develop secure and reliable Web applications very quickly in a standardized way, without any delay.
 
 ## Why Django is soo speacial?
-any Idea.....no than no problem,
+any Idea no,.... than no problem,
 For starters, it’s a Python Web framework, and as you know, python is having a wide of range of open source libraries. It hosts over 116K packages (till Sep. 2017). If you need to solve a specific problem, the chances are someone has already implemented a library for it.
 
 Django is one of the most popular Web frameworks written in Python. It is complete and offering a wide range of features such as a standalone Web server for development and testing, caching, middleware system, ORM, template engine, form processing, interface with Python’s unit testing tools. It also comes with the built-in applications such as an authentication system, an administrative interface with automatically generated pages for CRUD operations, generation of syndication feeds (RSS/Atom), sitemaps. There’s even a Geographic Information System (GIS) framework.
