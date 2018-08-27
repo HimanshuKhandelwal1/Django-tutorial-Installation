@@ -95,7 +95,13 @@ this file is a simple gateway interface used for deployment. You don’t have to
 
 ### Run web server for confirmation
 Django comes with a simple web server installed. It’s very convenient during the development, so we don’t have to install anything else to run the project locally. We can test it by executing the command:
-### python manage.py runserver
+
+### python manage.py runserver 
+Here error will come as :
+##### python: can't open file 'manage.py': [Errno 2] No such file or directory
+solution for this error is:, 
+you have to navigate in the folder where manage.py file is and than run the above commnad in command prompt.
+mostly it will be inside your django project folder. from there you can run the manage.py file.
 
 Ignore all the warning and check in your browser by the following URL in a Web browser: 
 ### http://127.0.0.1:8000 
